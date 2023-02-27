@@ -41,4 +41,25 @@ public class LikeRestController {
 		
 	}
 
+	
+	// 좋아요 취소를 위한 api
+	@GetMapping("/unlike")
+	public Map<String, String> unlike(
+			@RequestParam("postId") int postId
+			, HttpSession session) {
+		
+		int userId = (Integer)session.getAttribute("userId");
+		
+		int count = likeBO.unlike(postId, userId);
+		
+		Map<String, String> result = new HashMap<>();
+		if(count == 1) {
+			result.put("result", "success");
+		} else {
+			result.put("result", "fail");
+		}
+		
+		return result;
+		
+	}
 }

@@ -9,3 +9,8 @@ spring:
     url: jdbc:mysql://localhost:3306/marondalgram
     username: root
     password: sohyun4343
+  servlet:
+    multipart:
+      max-file-size: 128MB
+      max-request-size: 128MB
+      enabled: true

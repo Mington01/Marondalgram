@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Marondalgram</title>
+<title>Yellowgram</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
@@ -21,7 +21,7 @@
 			<div>
 				<div class="login-box d-flex justify-content-center align-items-start bg-white  border rounded">
 					<div class="w-100 p-5">
-						<h2 class="text-center">Marondalgram</h2>
+						<h2 class="text-center">Yellowgram</h2>
 						<br>
 						<div class="text-center">
 							<b class="text-secondary">친구들의 사진과 동영상을 보려면<br> 가입하세요.</b>

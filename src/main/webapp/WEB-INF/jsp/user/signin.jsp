@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Marondalgram</title>
+<title>Yellowgram</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
@@ -23,7 +23,7 @@
 			<div>
 				<div class="login-box d-flex justify-content-center align-items-start bg-white  border rounded">		
 					<div class="w-100 p-5">			
-						<h2 class="text-center">Marondalgram</h2>
+						<h2 class="text-center">Yellowgram</h2>
 						<br>
 						<form id="loginForm">
 							<input type="text" id="loginIdInput" class="form-control mt-3" placeholder="아이디">

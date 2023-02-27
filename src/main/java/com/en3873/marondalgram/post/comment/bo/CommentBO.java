@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import com.en3873.marondalgram.post.comment.dao.CommentDAO;
 import com.en3873.marondalgram.post.comment.model.Comment;
 import com.en3873.marondalgram.post.comment.model.CommentDetail;
+import com.en3873.marondalgram.post.model.Post;
 import com.en3873.marondalgram.user.bo.UserBO;
 import com.en3873.marondalgram.user.model.User;
 
@@ -49,6 +50,13 @@ public class CommentBO {
 		}
 		
 		return commentDetailList;
+		
+	}
+	
+	// postId 를 기반으로 댓글 삭제 기능
+	public int deleteCommentByPostId(int postId) {
+		
+		return commentDAO.deleteCommentByPostId(postId);
 		
 	}
 

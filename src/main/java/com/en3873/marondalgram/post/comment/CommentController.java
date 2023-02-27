@@ -21,7 +21,7 @@ public class CommentController {
 	private CommentBO commentBO;
 	
 	@PostMapping("/create")
-	public Map<String, String> createComment(
+	public Map<String, String>  createComment(
 			@RequestParam("postId") int postId
 			, @RequestParam("content") String content
 			, HttpSession session) {

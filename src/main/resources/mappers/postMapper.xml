@@ -43,5 +43,25 @@
 	
 	
 	</select>
+	
+	<select id="selectPost" parameterType="map">
+		SELECT
+			`userId`
+			, `content`
+			, `imagePath`
+			, `createdAt`
+			, `updatedAt`
+		FROM
+			`post`
+	</select>
+	
+	<delete id="deletePost" parameterType="int">
+		DELETE FROM
+			`post`
+		WHERE
+			`id` = #{postId}
+			AND `userId` = #{userId}
+	</delete>
+	
 
 </mapper>
